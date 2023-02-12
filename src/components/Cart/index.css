@@ -1,0 +1,90 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+
+/* Write your CSS here */
+
+.remove-all-btn {
+  background-color: transparent;
+  border: none;
+  color: #0b69ff;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  outline: none;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.cart-summary-cart {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.amount-msg {
+  color: #616e7c;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.amount {
+  color: #171f46;
+  font-size: 26px;
+  font-weight: 900;
+  font-family: 'Roboto';
+}
+
+.item-length-text {
+  color: #616e7c;
+  font-size: 17px;
+  font-family: 'Roboto';
+  margin-top: 1px;
+}
+
+.order-place-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Roboto';
+  height: 40px;
+}
